@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Jan  1 14:33:58 2025
+# Process ID: 24040
+# Current directory: C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15016 C:\Users\ÍõÐñ²©\Desktop\Ó²×Û\CO-lab-material-CQU-2022\vivado\lab4\project_1\project_1.xpr
+# Log file: C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/vivado.log
+# Journal file: C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+import_files -norecurse {C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/signext.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/eqcmp.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/mux3.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/hazard.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/controller.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/flopenr.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/alu.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/mux2.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/flopr.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/regfile.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/aludec.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/adder.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/flopenrc.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/sl2.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/datapath.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/floprc.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/mips.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/maindec.v C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/step_into_mips-lab_4/lab_4/rtl/pc.v}
+update_compile_order -fileset sources_1
+generate_target all [get_files C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/rtl/xilinx_ip/data_ram/data_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/rtl/xilinx_ip/data_ram/data_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/rtl/xilinx_ip/data_ram/data_ram.xci] -directory C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/rtl/xilinx_ip/inst_ram/inst_ram.xci]
+export_ip_user_files -of_objects [get_files C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/rtl/xilinx_ip/inst_ram/inst_ram.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/rtl/xilinx_ip/inst_ram/inst_ram.xci] -directory C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.ip_user_files -ipstatic_source_dir C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_run {data_ram_synth_1 inst_ram_synth_1}
+wait_on_run data_ram_synth_1
+
+wait_on_run data_ram_synth_1
+wait_on_run inst_ram_synth_1
+
+launch_simulation
+open_wave_config C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/tb_top_behav.wcfg
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/tb_top_behav.wcfg
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/tb_top_behav.wcfg
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/tb_top_behav.wcfg
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/tb_top_behav.wcfg
+source tb_top.tcl
+add_bp {C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.srcs/sources_1/imports/rtl/aludec.v} 29
+add_bp {C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.srcs/sources_1/imports/rtl/aludec.v} 32
+remove_bps -file {C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.srcs/sources_1/imports/rtl/aludec.v} -line 29
+remove_bps -file {C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/project_1/project_1.srcs/sources_1/imports/rtl/aludec.v} -line 32
+close_sim
+launch_simulation
+open_wave_config C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/tb_top_behav.wcfg
+source tb_top.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/lab4/tb_top_behav.wcfg
+source tb_top.tcl
+close_sim

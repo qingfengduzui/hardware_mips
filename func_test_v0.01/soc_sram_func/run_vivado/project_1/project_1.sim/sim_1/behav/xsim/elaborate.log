@@ -1,0 +1,63 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 51e12c418e714f398eb466504c7e82bf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'is_in_delayslot_iF' [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:260]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'is_in_delayslot_iD' [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:265]
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 32 for port 'hilo_o' [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:470]
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 32 for port 'x2' [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:512]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 1 for port 'wea' [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/soc_lite_top.v:167]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'btn_step' [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/soc_lite_top.v:226]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.main_decoder
+Compiling module xil_defaultlib.alu_decoder
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.pc_ctrl
+Compiling module xil_defaultlib.mux8
+Compiling module xil_defaultlib.pc_reg
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.inst_ascii_decoder
+Compiling module xil_defaultlib.imm_ext
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.branch_predict
+Compiling module xil_defaultlib.jump_predict
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.div_radix2
+Compiling module xil_defaultlib.mul_booth2
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mux4(WIDTH=5)
+Compiling module xil_defaultlib.mux4
+Compiling module xil_defaultlib.branch_judge
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem_ctrl
+Compiling module xil_defaultlib.hilo_reg
+Compiling module xil_defaultlib.exception
+Compiling module xil_defaultlib.cp0_reg
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mmu
+Compiling module xil_defaultlib.mycpu_top
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.inst_ram
+Compiling module xil_defaultlib.bridge_1x2
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg(SIMULATION=1'b1)
+Compiling module xil_defaultlib.soc_lite_top(SIMULATION=1'b1)
+Compiling module xil_defaultlib.tb_top
+WARNING: [XSIM 43-3373] "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/testbench/mycpu_tb.v" Line 123. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

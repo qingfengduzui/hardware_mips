@@ -1,0 +1,43 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/defines" --include "../../../../../../rtl/xilinx_ip/clk_pll" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" \
+"../../../../../../rtl/xilinx_ip/clk_pll/clk_pll.v" \
+"../../../../../../rtl/xilinx_ip/data_ram/sim/data_ram.v" \
+"../../../../../../rtl/xilinx_ip/inst_ram/sim/inst_ram.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/EX/alu.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/alu_decoder.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/EX/branch_judge.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/ID/branch_predict.v" \
+"../../../../../../rtl/BRIDGE/bridge_1x2.v" \
+"../../../../../../rtl/CONFREG/confreg.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/MEM/cp0_reg.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/EX/div_radix2.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/PIPE/ex_mem.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/MEM/exception.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/hazard.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/MEM/hilo_reg.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/PIPE/id_ex.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/PIPE/if_id.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/ID/imm_ext.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/utils/inst_ascii_decoder.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/ID/jump_predict.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/main_decoder.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/MEM/mem_ctrl.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/PIPE/mem_wb.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/mmu.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/utils/mux4.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/utils/mux8.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/EX/my_mul.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/mycpu_top.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/IF/pc_ctrl.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/IF/pc_reg.v" \
+"../../../../../../../../../../PiplineMIPS-master/src/PipelineMIPS-sram/ID/regfile.v" \
+"../../../../../../rtl/soc_lite_top.v" \
+"../../../../../../testbench/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

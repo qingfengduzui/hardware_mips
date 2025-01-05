@@ -1,0 +1,82 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/clk_pll/clk_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/data_ram/sim/data_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/xilinx_ip/inst_ram/sim/inst_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/EX/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/alu_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/EX/branch_judge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_judge
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/ID/branch_predict.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_predict
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/BRIDGE/bridge_1x2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bridge_1x2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/CONFREG/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2458] undeclared symbol conf_we, assumed default net type wire [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/CONFREG/confreg.v:160]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/MEM/cp0_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cp0_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+WARNING: [VRFC 10-3248] data object 'mem_ctrl_rdataM' is already declared [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:97]
+WARNING: [VRFC 10-3703] second declaration of 'mem_ctrl_rdataM' ignored [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:97]
+INFO: [VRFC 10-2458] undeclared symbol stallE, assumed default net type wire [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:148]
+INFO: [VRFC 10-2458] undeclared symbol stallM, assumed default net type wire [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:148]
+INFO: [VRFC 10-2458] undeclared symbol stallW, assumed default net type wire [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:148]
+INFO: [VRFC 10-2458] undeclared symbol flushE, assumed default net type wire [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:149]
+INFO: [VRFC 10-2458] undeclared symbol flushM, assumed default net type wire [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:149]
+INFO: [VRFC 10-2458] undeclared symbol flushW, assumed default net type wire [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:149]
+WARNING: [VRFC 10-2938] 'stallE' is already implicitly declared on line 148 [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:179]
+WARNING: [VRFC 10-2938] 'flushE' is already implicitly declared on line 149 [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/datapath.v:180]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/EX/div_radix2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div_radix2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/PIPE/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/MEM/exception.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module exception
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/hazard.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/MEM/hilo_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hilo_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/PIPE/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/PIPE/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/ID/imm_ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imm_ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/utils/inst_ascii_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_ascii_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/ID/jump_predict.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jump_predict
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/main_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/MEM/mem_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_ctrl
+INFO: [VRFC 10-2458] undeclared symbol instr_lbu, assumed default net type wire [C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/MEM/mem_ctrl.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/PIPE/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/mmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/utils/mux4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/utils/mux8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/EX/my_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul_booth2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/mycpu_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/IF/pc_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/IF/pc_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/PiplineMIPS-master/src/PipelineMIPS-sram/ID/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/rtl/soc_lite_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soc_lite_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ÍõÐñ²©/Desktop/Ó²×Û/CO-lab-material-CQU-2022/vivado/func_test_v0.01/soc_sram_func/testbench/mycpu_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

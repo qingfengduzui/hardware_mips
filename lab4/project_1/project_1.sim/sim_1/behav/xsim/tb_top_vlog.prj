@@ -1,0 +1,39 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../rtl/myCPU/utils" \
+"../../../../../rtl/xilinx_ip/data_ram/sim/data_ram.v" \
+"../../../../../rtl/xilinx_ip/inst_ram/sim/inst_ram.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/adder.v" \
+"../../../../project_1.srcs/sources_1/new/addr_except.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/alu.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/aludec.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/controller.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/datapath.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/eqcmp.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/flopenr.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/flopenrc.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/flopr.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/floprc.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/hazard.v" \
+"../../../../project_1.srcs/sources_1/new/hilo.v" \
+"../../../../../rtl/myCPU/utils/instdec.v" \
+"../../../../project_1.srcs/sources_1/new/lw_select.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/maindec.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/mips.v" \
+"../../../../project_1.srcs/sources_1/new/multi_div.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/mux2.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/mux3.v" \
+"../../../../project_1.srcs/sources_1/new/mux4.v" \
+"../../../../../rtl/myCPU/mycpu_top.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/pc.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/regfile.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/signext.v" \
+"../../../../project_1.srcs/sources_1/imports/rtl/sl2.v" \
+"../../../../project_1.srcs/sources_1/new/sw_select.v" \
+"../../../../../rtl/top.v" \
+"../../../../../sim/mycpu_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
